@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/student_id_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+
+        android:text="StudentID"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ID_textview"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+
+        android:layout_marginBottom="257dp"
+        android:text="ID"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/id_editText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/PW_textview"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="55dp"
+
+
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="28dp"
+        android:text="PW"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/password_editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ID_textview" />
+
+    <EditText
+        android:id="@+id/id_editText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+
+        android:ems="10"
+
+        android:hint="Type your id"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/ID_textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ID_textview" />
+
+    <EditText
+        android:id="@+id/password_editText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+
+        android:ems="10"
+
+        android:hint="Type your password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/PW_textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/PW_textview" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:text="login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PW_textview" />
+</android.support.constraint.ConstraintLayout>

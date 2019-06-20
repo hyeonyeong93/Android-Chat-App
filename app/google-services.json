@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "78646436998",
+    "firebase_url": "https://skku-mobile-app-pa2.firebaseio.com",
+    "project_id": "skku-mobile-app-pa2",
+    "storage_bucket": "skku-mobile-app-pa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78646436998:android:cc06e0c595f8a2c3",
+        "android_client_info": {
+          "package_name": "edu.skku.HyeonYeong_Jeong.SWPPA2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78646436998-vcijdp0e7ocjqmr73rv4kiegua4gkovd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.skku.HyeonYeong_Jeong.SWPPA2",
+            "certificate_hash": "cbd4b0c0cc94d8de888c2fe74aec2d52f8550ca3"
+          }
+        },
+        {
+          "client_id": "78646436998-3vc0satmltutralhojppvvivnueb1nt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvOQi0Wh54m5_dDRFINvmkclVNhz9cnqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78646436998-3vc0satmltutralhojppvvivnueb1nt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
